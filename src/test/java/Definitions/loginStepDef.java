@@ -1,9 +1,12 @@
+package Definitions;
+
 import io.cucumber.java.en.*;
 
 public class loginStepDef {
+
     @Given("^user login to the application$")
     public void user_login_to_the_application()  {
-
+        System.out.println("Hello World..!" );
     }
 
     @When("^user input the user name and password$")
